@@ -1,10 +1,12 @@
-def is_prime(x)
-    if x < 2
-        return False
-    else
-        for n in range(2,x):
-            if x % n == 0:
-               return False
-        return True
-      end
-    end
+def prime?(n)
+  if n <= 1
+    return false
+  elsif n <= 3
+    return true
+  else (2..n/2).none? do |x|
+    n % x == 0
+  end
+end
+end
+
+    
