@@ -1,7 +1,3 @@
-def prime?(array)
-  if array == array.prime?
-    true
-  else
-    false
-  end
+def prime?(integer)
+(2..n-1).none? { |divisor| n % divisor == 0}
 end
