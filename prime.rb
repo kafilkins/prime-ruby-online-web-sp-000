@@ -5,4 +5,3 @@ def prime?(array)
     false
   end
 end
-
